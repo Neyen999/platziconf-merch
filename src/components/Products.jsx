@@ -1,3 +1,4 @@
+/* eslint-disable arrow-body-style */
 import React from 'react';
 import Product from './Product';
 import '../styles/components/Products.css';
