@@ -1,5 +1,6 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/components/Information.css';
 
 const Information = () => {
@@ -24,7 +25,9 @@ const Information = () => {
         </div>
         <div className="Information-buttons">
           <div className="Information-back">Regresar</div>
-          <div className="Information-next">Pagar</div>
+          <div className="Information-next">
+            <Link to="/checkout/payment">Pagar</Link>
+          </div>
         </div>
       </div>
       <div className="Information-sidebar">
