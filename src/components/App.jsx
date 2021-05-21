@@ -1,5 +1,8 @@
-import React from 'react'
-import "../styles/components/App.css";
+import React from 'react';
+
+const hola = "hola"
+
+import '../styles/components/App.css';
 
 const App = () => <h1>Hola Mundo</h1>;
 
