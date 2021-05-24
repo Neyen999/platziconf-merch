@@ -4,11 +4,6 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const Map = () => {
   return (
-    // <LoadScript googleMapsApiKey="AIzaSyBDHlI_uw6UaspoCFsOD0_tEBI35S2mGXY">
-    //   <GoogleMap mapContainerStyle={mapStyles} zoom={9} center={defaultCenter}>
-    //     <Marker position={defaultCenter} />
-    //   </GoogleMap>
-    // </LoadScript>
     <MapContainer
       center={[-34.82116810687362, -58.25956387093632]}
       zoom={13}
